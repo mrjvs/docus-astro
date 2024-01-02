@@ -13,7 +13,6 @@
     "astro-component"
   ],
   "scripts": {
-    "build": "astro build",
     "dev": "astro dev",
     "lint": "eslint . --ext .ts,.js,.astro src",
     "lint:fix": "eslint . --ext .ts,.js,.astro --fix src"
