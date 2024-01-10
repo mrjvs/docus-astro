@@ -1,0 +1,11 @@
+---
+import { DocusContentLayout } from 'docus-astro';
+
+interface Props {
+	title: string;
+}
+---
+
+<DocusContentLayout title={Astro.props.title}>
+  <slot />
+</DocusContentLayout>

@@ -1,4 +1,7 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "include": ["src", "libs/docus/index.ts"]
+  "extends": "astro/tsconfigs/strictest",
+  "compilerOptions": {
+    "jsx": "preserve"
+  },
+  "include": ["src", "./index.ts"]
 }
